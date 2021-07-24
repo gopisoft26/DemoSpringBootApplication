@@ -2,13 +2,15 @@ package com.demo.spring.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.util.Assert;
 
 @SpringBootTest
 class DemoSpringBootApplicationTests {
 
 	@Test
-	void contextLoads() {
-		System.out.println("%%%%%%%% JUNIT running %%%%%%%%%%%%%");
+	public void contextLoads() {
+		Assert.isTrue(true);
+		System.out.println("%%%%%%%% Junit test case passed... %%%%%%%%%%%%%");
 	}
 
 }
