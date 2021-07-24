@@ -8,6 +8,9 @@
 		<version>2.5.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	
+	<packaging>war</packaging>  
+	
 	<groupId>com.demo.spring.app</groupId>
 	<artifactId>DemoSpringBootApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -30,6 +33,7 @@
 	</dependencies>
 
 	<build>
+	<finalName>DemoSpringBootApplication</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
